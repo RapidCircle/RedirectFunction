@@ -6,9 +6,8 @@
       "type": "httpTrigger",
       "direction": "in",
       "methods": [
-        "post"
-      ],
-      "route": "subscriptions/{subscriptionId}/resourcegroups/{resourceGroupName}/providers/Microsoft.CustomProviders/resourceproviders/{minirpname}/{action}"
+        "get"
+      ]
     },
     {
       "name": "$return",
